@@ -21,8 +21,8 @@ on:
         default: 'main'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
-        required: false
-        default: ''
+        required: true
+        default: 'device/xiaomi/dizi'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
